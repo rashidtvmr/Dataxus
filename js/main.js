@@ -41,5 +41,7 @@ $(document).ready(function(){
     $('.home-icon').click(()=>{
         // $('.cover1').addClass('active-home');
     });
-    
+    Pase.option={
+        document:true
+    }
 });

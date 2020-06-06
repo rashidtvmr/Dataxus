@@ -91,4 +91,9 @@
     .navigation{
         display: none;
     }
+    .scroll-bottom{
+        font-size: 12px !important;
+        bottom:40px !important;
+        vertical-align: unset;
+    }
 }
