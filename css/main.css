@@ -29,6 +29,7 @@
   font-size: 18px !important;
   letter-spacing: 2.5px;
   /* transition-delay: 3s; */
+  animation-delay: 2s;
   animation: scrollToTop 2s forwards;
 }
 @keyframes scrollToTop{
