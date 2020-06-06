@@ -94,6 +94,6 @@
     .scroll-bottom{
         font-size: 12px !important;
         bottom:40px !important;
-        vertical-align: unset;
+        vertical-align: unset !important;
     }
 }
