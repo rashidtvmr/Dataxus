@@ -26,4 +26,19 @@ $(document).ready(function(){
             }
         ]
     });
+    $('.icon-button').click(function(){
+        let href=$(this).attr('href');
+        if(href === '#contact'){
+            console.warn("conta");
+            
+        }else if(href === "#about"){
+            console.warn("profile");
+        }else{
+            console.warn("home");
+        }
+    });
+
+    $('.home-icon').click(()=>{
+        // $('.cover1').addClass('active-home');
+    });
 });
