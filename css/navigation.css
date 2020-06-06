@@ -1,0 +1,66 @@
+.navigation{
+    position: absolute;
+    right:0;
+    top:50%;
+}
+.home-sidelinks {
+    list-style: none;
+    font-family: "metropolis-regular", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.714;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    margin: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  .home-sidelinks li {
+    display: block;
+    padding: 0;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+  }
+  .home-sidelinks li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .home-sidelinks li::before {
+    content: "";
+    display: block;
+    height: 6px;
+    width: 6px;
+    background-color: #cc147f;
+    border-radius: 50%;
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+  }
+  .home-sidelinks a {
+    text-decoration: none;
+    display: block;
+    padding: 2.1rem 15rem 2.1rem 4rem;
+    color: #ffffff;
+  }
+  .home-sidelinks span {
+    display: block;
+    font-family: "metropolis-regular", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .home-sidelinks li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  

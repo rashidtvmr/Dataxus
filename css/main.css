@@ -18,6 +18,46 @@
   width: 100%;
 }
 
+
+.scroll-bottom{
+  font-family: "domine-bold", sans-serif;
+  position: absolute;
+  bottom: 60px;
+  cursor: pointer;
+  right: 60px;
+  color:white;
+  font-size: 18px !important;
+  letter-spacing: 2.5px;
+  /* transition-delay: 3s; */
+  animation: scrollToTop 2s forwards;
+}
+@keyframes scrollToTop{
+  0%{
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50%{
+    opacity: 0.5;
+    transform: translateY(50%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.scroll-bottom a{
+  text-decoration: none !important;
+  color: white;
+}
+.sb-icon{
+  font-size: 25px;
+  margin-left: 20px;
+}
+.sb-text{
+  transition: all .6s ease-in-out;
+  vertical-align: super;
+}
+
 .home {
   width: 100%;
   height: 100vh;
