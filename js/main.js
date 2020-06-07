@@ -26,22 +26,12 @@ $(document).ready(function(){
             }
         ]
     });
-    $('.icon-button').click(function(){
-        let href=$(this).attr('href');
-        if(href === '#contact'){
-            console.warn("conta");
-            
-        }else if(href === "#about"){
-            console.warn("profile");
-        }else{
-            console.warn("home");
-        }
+    $('.c_menu-btn--icon').click(()=>{
+        $('.c_menu-btn--icon').toggleClass('open');
+        $('.c_menu-area').toggleClass('expand');
+        $('.c_menu-area').click(()=>{
+            $('.c_menu-btn--icon').toggleClass('open');
+            $('.c_menu-area').toggleClass('expand');
+        })
     });
-
-    $('.home-icon').click(()=>{
-        // $('.cover1').addClass('active-home');
-    });
-    Pase.option={
-        document:true
-    }
 });
