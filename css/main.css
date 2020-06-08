@@ -420,7 +420,7 @@
   /* padding-left: 5px; */
 }
 .list-container li::before {
-  content: "✔";
+  content: "❄";
   font-size: 18px !important;
   color: #192a56 !important;
   padding: 5px;
