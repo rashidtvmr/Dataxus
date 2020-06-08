@@ -7,6 +7,11 @@ $(document).ready(function(){
     $(".menu").click(function(){
         $(this).parent().toggleClass("close");
      });
+     $(".icons a").click(function(e) {
+        $(this).siblings('a.active').removeClass("active");
+        $(this).addClass("active");
+        $(".menu").parent().toggleClass("close");
+     });
     $('.testimonials__slides').slick({
         arrows: true,
         dots: true,
