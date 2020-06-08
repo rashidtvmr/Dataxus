@@ -22,19 +22,19 @@
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/menu_custom.css" />
     <link rel="stylesheet" href="css/deconstructed.css" />
+    <link rel="stylesheet" href="css/textslicer.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="https://use.fontawesome.com/37ad381857.js"></script>
     <!-- <script src="js/modernizr.js"></script> -->
-    <!-- <script src="js/pace.min.js"></script> -->
 
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <style>
-      /* .loader{
-        background-color:#192a56 ;
-      } */
+      .loader{
+        transition: all 1s ease-in-out;
+      }
       .pace-running .loader {
         zoom: 1;
         filter: alpha(opacity=10);
@@ -50,32 +50,26 @@
         transition: opacity 1s linear;
       }
     </style>
-  </head>
+  </head>  
   <body id="home">
+    <div class="menu-container">
+  
+      <input id="toggle" type="checkbox">
+      
+      <label class="toggle-container" for="toggle">
+        <span class="button button-toggle"></span>
+      </label>
+      <nav class="nav">
+        <a class="nav-item" href="">Dashboard</a>
+        <a class="nav-item" href="">History</a>
+        <a class="nav-item" href="">Statistics</a>
+        <a class="nav-item" href="">Settings</a>
+      </nav>
+    </div>
     <div class="loader">
       <!-- menu button-->
-      <div class="base">
-        <div class="menu">
-          <div class="icon">
-            <div class="bar"></div>
-          </div>
-        </div>
-        <div class="icons">
-          <i class="fa fa-user about-active" aria-hidden="true"></i>
-          <i class="fa fa-home" aria-hidden="true"></i>
-          <i class="fa fa-address-book"></i>
-          <!-- <i class="fa fa-tachometer" aria-hidden="true"></i> -->
-        </div>
-        <div class="section top icon-button">
-          <div class="cover1">
-            <div class="cover2">
-              <a class="content" href="#home"></a>
-            </div>
-          </div>
-        </div>
-        <a class="section-static top icon-button" href="#about"></a>
-        <a class="section-static bottom icon-button" href="#contact"></a>
-      </div>
+      
+      <!-- Menu End -->
 
       <!-- HOME-->
       <section
@@ -110,9 +104,10 @@
                     operations?
                   </div>
                 </div>
-                <p class="home-content-second" data-aos="zoom-out-left">
-                  See how DataXus can save you both time and cost.
-                </p>
+
+                <div class="home-content-second">
+                  <p class="text">See how DataXus can save you both time and cost</p>
+                </div>
               </div>
             </div>
           </div>
@@ -612,7 +607,7 @@
           </div>
           <div class="row">
             <div class="col-12 col-md-6">
-              <div class="contact-form">
+              <div class="contact-form px-md-5">
                 <label>
                   <input
                     class="contact-form-fields"
@@ -662,8 +657,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="contact-main">
+            <div class="col-12 col-md-6 px-md-5">
+              <div class="contact-main " >
                 <p>
                   <a href="mailto:info@dataxus.com" class="contact-email"
                     >info@dataxus.com</a
@@ -697,7 +692,7 @@
       </section>
 
       <!-- copyrights -->
-      <section style="background-color: black;">
+      <section style="background-color: #1787c3;">
         <div class="container py-2">
           <div class="row text-center">
             <div class="container">
@@ -712,16 +707,6 @@
           </div>
         </div>
       </section>
-
-        <!-- <div class="c_menu">
-          <div class="c_menu-btn">
-            <div class="c_menu-btn--icon">
-              <div class="c_menu-btn--bar"></div>
-            </div>
-          </div>
-          <div class="c_menu-area"></div>
-          <div class="c_menu-area--main"></div>
-        </div> -->
     </div>
 
     <script src="js/jquery.js"></script>

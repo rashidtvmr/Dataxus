@@ -26,12 +26,11 @@ $(document).ready(function(){
             }
         ]
     });
-    $('.c_menu-btn--icon').click(()=>{
-        $('.c_menu-btn--icon').toggleClass('open');
-        $('.c_menu-area').toggleClass('expand');
-        $('.c_menu-area').click(()=>{
-            $('.c_menu-btn--icon').toggleClass('open');
-            $('.c_menu-area').toggleClass('expand');
+    $('.c_menu-btn').click(()=>{
+        $('.c_menu').toggleClass('open');
+        $('.c1,.c2,.c3,.c4').click((event)=>{
+
+            $('.c_menu').toggleClass('open');
         })
     });
 });

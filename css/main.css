@@ -9,6 +9,9 @@
   .brand-logo {
     left: 50%;
     transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     height: 40px;
     width: 140px;
   }
@@ -18,52 +21,69 @@
   width: 100%;
 }
 
-
-.scroll-bottom{
+.scroll-bottom {
   font-family: "domine-bold", sans-serif;
   position: absolute;
   bottom: 60px;
   cursor: pointer;
   right: 60px;
-  color:white;
+  color: white;
   font-size: 18px !important;
   letter-spacing: 2.5px;
   /* transition-delay: 3s; */
   animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
   animation: scrollToTop 6s infinite;
+  -webkit-animation: scrollToTop 6s infinite;
 }
-@keyframes scrollToTop{
-  0%{
+@keyframes scrollToTop {
+  0% {
     opacity: 0;
     transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
   }
-  25%{
+  25% {
     opacity: 0.5;
     transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -webkit-transform: translateY(50%);
   }
-  50%{
+  50% {
     opacity: 1;
     transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -webkit-transform: translateY(0%);
   }
-  75%{
+  75% {
     opacity: 0.5;
     transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -webkit-transform: translateY(50%);
   }
-  100%{
+  100% {
     opacity: 0;
     transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
   }
 }
-.scroll-bottom a{
+.scroll-bottom a {
   text-decoration: none !important;
   color: white;
 }
-.sb-icon{
+.sb-icon {
   font-size: 25px;
   margin-left: 20px;
 }
-.sb-text{
-  transition: all .6s ease-in-out;
+.sb-text {
+  transition: all 0.6s ease-in-out;
   vertical-align: super;
 }
 
@@ -420,7 +440,7 @@
   /* padding-left: 5px; */
 }
 .list-container li::before {
-  content: "✔";
+  content: "❄";
   font-size: 18px !important;
   color: #192a56 !important;
   padding: 5px;
@@ -440,7 +460,10 @@
   content: "";
   top: -20px;
   bottom: 0;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
   background-image: url(../assets/images/services/productloading1.jpg);
   width: 50%;
   border-radius: 0 5px 0 0;
@@ -454,7 +477,11 @@
   content: "";
   top: -20px;
   bottom: 0;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+
   background-color: red;
   background-image: url(../assets/images/services/content-management.JPG);
   width: 50%;
@@ -475,7 +502,11 @@
   border-radius: 0 5px 0 0;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 112%;transition: all .3s ease-in-out;
+  height: 112%;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 .services-four-container::before {
   position: absolute;
@@ -489,7 +520,11 @@
   border-radius: 5px 0 0 0;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 110%;transition: all .3s ease-in-out;
+  height: 110%;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 .services-five-container::before {
   position: absolute;
@@ -502,7 +537,11 @@
   border-radius: 0 5px 0 0;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 112%;transition: all .3s ease-in-out;
+  height: 112%;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 .services-one,
 .services-two,
@@ -546,7 +585,7 @@
   .services-four-container,
   .services-five-container {
     margin-top: 0px;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   .services-one,
   .services-two,
@@ -764,6 +803,7 @@ textarea.contact-form-fields {
   color: #8f8f8f !important;
   border: none !important;
   transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
 }
 .form-submit-btn:hover {
   background: #192a56 !important;
@@ -816,7 +856,7 @@ textarea.contact-form-fields {
 
 .copy-rights {
   padding-top: 20px;
-  color: #555555;
+  color: #21264b;
   font-size: 16px;
   margin: 0 auto;
   text-align: center;
