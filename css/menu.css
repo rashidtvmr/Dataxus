@@ -101,10 +101,10 @@ body .base .icons > * {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
-.icons .icon-four{
+.icons .icon-four {
   top: 0px;
   left: 35px;
-  -webkit-transition-delay:0.1s;
+  -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
@@ -159,7 +159,7 @@ body .base.close .icons {
 .base.close .icon-one,
 .base.close .icon-two,
 .base.close .icon-three,
-.base.close .icon-four{
+.base.close .icon-four {
   position: absolute;
   font-size: 40px;
   cursor: pointer;
@@ -176,24 +176,24 @@ body .base.close .icons {
   transition: 0.3s cubic-bezier(0.5, 0, 0.05, 1.75) 0.7s;
 } */
 
-.icon-one:hover::before ,
-.icon-three:hover::before ,
-.icon-two:hover::before ,
-.icon-four:hover::before  {
+.icon-one:hover::before,
+.icon-three:hover::before,
+.icon-two:hover::before,
+.icon-four:hover::before {
   z-index: 999 !important;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   font-size: 45px;
-  color:#cc147f !important;
+  color: #cc147f !important;
 }
 
-.icons a.active .icon-one::before ,
-.icons a.active .icon-three::before ,
-.icons a.active .icon-two::before ,
-.icons a.active .icon-four::before  {
+.icons a.active .icon-one::before,
+.icons a.active .icon-three::before,
+.icons a.active .icon-two::before,
+.icons a.active .icon-four::before {
   font-size: 45px;
-  color:#cc147f !important;
+  color: #cc147f !important;
 }
-body .base.close .icon-one{
+body .base.close .icon-one {
   top: 25px;
   left: 200px;
 }
