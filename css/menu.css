@@ -1,0 +1,222 @@
+<<<<<<< HEAD
+=======
+body .base {
+  z-index: 90;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  width: 98px;
+  height: 98px;
+  -webkit-transition: all 1s cubic-bezier(0.5, -0.75, 0.05, 1);
+  transition: all 1s cubic-bezier(0.5, -0.75, 0.05, 1);
+  border-bottom-right-radius: 100%;
+}
+body .base .menu {
+  z-index: 100;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  border-bottom-right-radius: 200px;
+  cursor: pointer;
+  -webkit-transition: all 1s cubic-bezier(0.5, -0.75, 0.05, 1),
+    background-color 1s ease;
+  transition: all 1s cubic-bezier(0.5, -0.75, 0.05, 1), background-color 1s ease;
+}
+body .base .menu .icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-100%, -100%);
+  transform: translate(-100%, -100%);
+}
+body .base .menu .icon:before,
+body .base .menu .icon:after {
+  content: "";
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: top 0.5s ease 0.5s, background-color 0.75s ease 0.25s,
+    -webkit-transform 0.5s ease;
+  transition: top 0.5s ease 0.5s, background-color 0.75s ease 0.25s,
+    -webkit-transform 0.5s ease;
+  transition: top 0.5s ease 0.5s, transform 0.5s ease,
+    background-color 0.75s ease 0.25s;
+  transition: top 0.5s ease 0.5s, transform 0.5s ease,
+    background-color 0.75s ease 0.25s, -webkit-transform 0.5s ease;
+}
+body .base .menu .icon .bar,
+body .base .menu .icon:before,
+body .base .menu .icon:after {
+  position: absolute;
+  height: 5px;
+  left: 0px;
+  right: 0px;
+  border-radius: 5px;
+  background-color: #21264b;
+}
+body .base .menu .icon .bar {
+  -webkit-transition: opacity 0s linear 0.5s, background-color 0.75s ease 0.25s;
+  transition: opacity 0s linear 0.5s, background-color 0.75s ease 0.25s;
+  opacity: 1;
+  top: 10px;
+}
+body .base .menu .icon:before {
+  top: 0px;
+}
+body .base .menu .icon:after {
+  top: initial;
+  top: 20px;
+}
+body .base .icons {
+  z-index: 98;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+body .base .icons > * {
+  position: absolute;
+  font-size: 10px;
+  color: #21264b;
+  -webkit-transition: 0.3s cubic-bezier(0.5, -0.25, 0.05, 1);
+  transition: 0.3s cubic-bezier(0.5, -0.25, 0.05, 1);
+}
+.icon-one {
+  top: 0px;
+  left: 0px;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.icon-two {
+  top: 0px;
+  left: 0px;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.icon-three {
+  top: 35px;
+  left: 0px;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.icons .icon-four{
+  top: 0px;
+  left: 35px;
+  -webkit-transition-delay:0.1s;
+  transition-delay: 0.1s;
+}
+
+body .base.close {
+  width: 300px;
+  height: 300px;
+  -webkit-transition: all 1.25s cubic-bezier(0.5, 0, 0.05, 1.75);
+  transition: all 1.25s cubic-bezier(0.5, 0, 0.05, 1.75);
+}
+body .base.close .menu {
+  width: 150px;
+  height: 150px;
+  -webkit-transition: all 1s cubic-bezier(0.5, 0, 0.05, 1.75),
+    background-color 1s ease;
+  transition: all 1s cubic-bezier(0.5, 0, 0.05, 1.75), background-color 1s ease;
+  background-color: #21264b;
+}
+body .base.close .menu .icon .bar,
+body .base.close .menu .icon:before,
+body .base.close .menu .icon:after {
+  background-color: #ffffff;
+}
+body .base.close .menu .icon .bar {
+  opacity: 0;
+}
+body .base.close .menu .icon:before,
+body .base.close .menu .icon:after {
+  -webkit-transition: top 0.5s linear, background-color 0.75s ease 0.25s,
+    -webkit-transform 0.5s ease 0.5s;
+  transition: top 0.5s linear, background-color 0.75s ease 0.25s,
+    -webkit-transform 0.5s ease 0.5s;
+  transition: top 0.5s linear, transform 0.5s ease 0.5s,
+    background-color 0.75s ease 0.25s;
+  transition: top 0.5s linear, transform 0.5s ease 0.5s,
+    background-color 0.75s ease 0.25s, -webkit-transform 0.5s ease 0.5s;
+}
+body .base.close .menu .icon:before {
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+body .base.close .menu .icon:after {
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+body .base.close .icons {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.base.close .icon-one,
+.base.close .icon-two,
+.base.close .icon-three,
+.base.close .icon-four{
+  position: absolute;
+  font-size: 40px;
+  cursor: pointer;
+  color: #21264b;
+  -webkit-transition: 0.3s cubic-bezier(0.5, 0, 0.05, 1.75) 0.7s;
+  transition: 0.3s cubic-bezier(0.5, 0, 0.05, 1.75) 0.7s;
+}
+/* body .base.close .icons > * {
+  position: absolute;
+  font-size: 40px;
+  cursor: pointer;
+  color: #21264b;
+  -webkit-transition: 0.3s cubic-bezier(0.5, 0, 0.05, 1.75) 0.7s;
+  transition: 0.3s cubic-bezier(0.5, 0, 0.05, 1.75) 0.7s;
+} */
+
+.icon-one:hover::before ,
+.icon-three:hover::before ,
+.icon-two:hover::before ,
+.icon-four:hover::before  {
+  z-index: 999 !important;
+  transition: all .2s ease;
+  font-size: 45px;
+  color:#cc147f !important;
+}
+
+.icons a.active .icon-one::before ,
+.icons a.active .icon-three::before ,
+.icons a.active .icon-two::before ,
+.icons a.active .icon-four::before  {
+  font-size: 45px;
+  color:#cc147f !important;
+}
+body .base.close .icon-one{
+  top: 25px;
+  left: 200px;
+}
+body .base.close .icon-two {
+  top: 90px;
+  left: 170px;
+  -webkit-transition-delay: 0.65s;
+  transition-delay: 0.65s;
+}
+
+body .base.close .icon-three {
+  top: 151px;
+  left: 111px;
+  color: #21264b;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+}
+body .base.close .icon-four {
+  top: 200px;
+  left: 35px;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+}
+>>>>>>> 8d8b69fc01042d032c25366260936af95b7cd8d5
