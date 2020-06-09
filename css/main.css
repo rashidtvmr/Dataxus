@@ -406,7 +406,7 @@
   padding-top: 100px;
   padding-bottom: 180px;
   color: #555555;
-  background-color: #f1f1f1;
+  background-color: #fff;
   position: relative;
 }
 
@@ -464,7 +464,7 @@
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  background-image: url(../assets/images/services/productloading1.jpg);
+  background-image: url(../assets/images/services/Datamanagement.jpg);
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;
@@ -481,9 +481,8 @@
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-
   background-color: red;
-  background-image: url(../assets/images/services/content-management.JPG);
+  background-image: url(../assets/images/services/ContentandEcommerce.jpg);
   width: 50%;
   border-radius: 5px 0 0 0;
   background-size: cover;
@@ -497,7 +496,7 @@
   top: -20px;
   bottom: 0;
   background-color: red;
-  background-image: url(../assets/images/services/fiancial-reporting.jpg);
+  background-image: url(../assets/images/services/financialreporting.jpg);
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;
@@ -515,7 +514,7 @@
   top: -20px;
   bottom: 0;
   background-color: red;
-  background-image: url(../assets/images/services/Receivable-and-Billing.JPG);
+  background-image: url(../assets/images/services/receivableandpayable.jpg);
   width: 50%;
   border-radius: 5px 0 0 0;
   background-size: cover;
@@ -532,7 +531,7 @@
   content: "";
   top: -20px;
   bottom: 0;
-  background-image: url(../assets/images/services/DataAnalysisandReporting.jpg);
+  background-image: url(../assets/images/services/DataAnalysis.jpg);
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;
@@ -760,8 +759,13 @@
   position: relative;
 }
 
+/* .contact-second{
+  margin-left:00px;
+} */
+
 .contact-form {
   margin-top: 22px;
+  font-family: sans-serif;
 }
 .contact-form-fields {
   outline: none;
@@ -856,12 +860,31 @@ textarea.contact-form-fields {
 
 .copy-rights {
   padding-top: 20px;
-  color: #21264b;
+  color: #fff;
   font-size: 16px;
   margin: 0 auto;
   text-align: center;
 }
+.slick-arrow{
+  transition: all .3s ease;
+}
+.slick-next{
+  right:-100px;
+}
+/* .slick-prev{
+  left:-100px;
+} */
+.slick-arrow:hover{
+  /* transform:translateX(-20%); */
+  border-radius: 50%;
+  /* padding:10px; */
+  text-align: center;
+  width:50px;
+  height: 50px;
+  border:.5px solid #8f8f8f;
+}
 
+/* .slick-prev:before */
 .slick-next::before,
 .slick-prev:before {
   color: black !important;

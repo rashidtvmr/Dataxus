@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 body .base {
   z-index: 90;
   position: fixed;
@@ -219,4 +217,3 @@ body .base.close .icon-four {
   -webkit-transition-delay: 1s;
   transition-delay: 1s;
 }
->>>>>>> 8d8b69fc01042d032c25366260936af95b7cd8d5
