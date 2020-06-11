@@ -6,7 +6,7 @@
 
 .home-sidelinks {
   list-style: none;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 14px;
   line-height: 1.714;
   text-transform: uppercase;
@@ -17,7 +17,6 @@
   -ms-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   transform: translateY(-50%);
-
   position: absolute;
   top: 50%;
   right: 0;
@@ -54,7 +53,7 @@
 }
 .home-sidelinks span {
   display: block;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 1.5rem;
   line-height: 1.6rem;
   color: rgba(255, 255, 255, 0.5);
@@ -104,7 +103,7 @@
 }
 @media (max-width: 1400px) {
   .home-sidelinks a {
-    padding: 23px 49px 7px 50px;
+    padding: 23px 39px 7px 50px;
   }
 }
 
