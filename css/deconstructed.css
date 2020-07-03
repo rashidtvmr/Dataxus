@@ -569,7 +569,7 @@ span:after {
   color: white;
   transition-delay: 2800ms;
 }
-.share:hover > h1 > span:nth-child(20):after {
+/* .share:hover > h1 > span:nth-child(20):after {
   background: black;
   width: 100%;
   transition: 0.6s;
@@ -628,4 +628,4 @@ span:after {
 .share:hover > h1 > span:nth-child(24) {
   color: white;
   transition-delay: 3800ms;
-}
+} */
