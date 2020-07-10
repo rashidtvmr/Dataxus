@@ -465,7 +465,7 @@
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  background-image: url(../assets/images/services/Datamanagement.jpg);
+  background-image: url(../assets/images/services/productloading.jpg);
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;
@@ -497,7 +497,7 @@
   top: -20px;
   bottom: 0;
   background-color: red;
-  background-image: url(../assets/images/services/financialreporting.jpg);
+  background-image: url(../assets/images/services/dataanalysis.jpeg);
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;
@@ -515,7 +515,7 @@
   top: -20px;
   bottom: 0;
   background-color: red;
-  background-image: url(../assets/images/services/receivableandpayable.jpg);
+  background-image: url(../assets/images/services/receivableandpayablemgmt.jpeg);
   width: 50%;
   border-radius: 5px 0 0 0;
   background-size: cover;
@@ -532,7 +532,7 @@
   content: "";
   top: -20px;
   bottom: 0;
-  background-image: url(../assets/images/services/DataAnalysis.jpg);
+  background-image: url(../assets/images/services/dataanalysis.jpeg);
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;

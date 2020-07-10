@@ -46,8 +46,11 @@
   left: 2rem;
 }
 .home-sidelinks a {
+  word-wrap: none;
+  word-break: keep-all;
   text-decoration: none;
   display: block;
+  font-size: 12px;
   padding: 2.1rem 15rem 2.1rem 4rem;
   color: #ffffff;
 }
