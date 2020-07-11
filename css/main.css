@@ -22,7 +22,7 @@
 }
 
 .scroll-bottom {
-  font-family: "domine-bold", sans-serif;
+  font-family: "Oswald", sans-serif;
   position: absolute;
   bottom: 60px;
   cursor: pointer;
@@ -132,7 +132,7 @@
 }
 
 .home-content h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 60px;
   line-height: 1.1;
   margin-top: 0;
@@ -167,7 +167,7 @@
 }
 
 .subhead {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   line-height: 1.3125;
   text-transform: uppercase;
@@ -181,7 +181,7 @@
 }
 
 .display-1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 58px;
   line-height: 1.3;
@@ -252,7 +252,7 @@
 }
 
 .lead {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 24px;
   line-height: 1.75;
   margin-bottom: 36px;
@@ -297,7 +297,7 @@
 .process__col::before {
   content: attr(data-item);
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 21px;
   text-align: center;
   color: #ffffff;
@@ -433,7 +433,7 @@
 
 .list-container {
   /* list-style: none; */
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 17px;
 }
 .list-container li {
@@ -470,6 +470,7 @@
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 108%;
 }
@@ -487,6 +488,7 @@
   background-image: url(../assets/images/services/cms-ecomm.jpg);
   width: 50%;
   border-radius: 5px 0 0 0;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 108%;
@@ -498,10 +500,11 @@
   top: -20px;
   bottom: 0;
   background-color: white;
-  background-image: url(../assets/images/services/dataanalysis.jpeg);
+  background-image: url(../assets/images/services/financialreporting.jpeg);
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 112%;
   transition: all 0.3s ease-in-out;
@@ -520,6 +523,7 @@
   width: 50%;
   border-radius: 5px 0 0 0;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 110%;
   transition: all 0.3s ease-in-out;
@@ -538,6 +542,7 @@
   width: 50%;
   border-radius: 0 5px 0 0;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 112%;
   transition: all 0.3s ease-in-out;
@@ -550,7 +555,7 @@
 .services-three,
 .services-four,
 .services-five {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   background: rgba(252, 252, 252, 0.85);
   padding: 20px 0px 20px 98px;
   border-radius: 5px;
@@ -608,13 +613,13 @@
 }
 
 .testimonials-header {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   margin-top: 72px;
 }
 
 .testimonials {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 18px;
   line-height: 2;
   margin-top: 42px;
@@ -690,7 +695,7 @@
 
 .testimonials__author {
   margin-top: 0rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
@@ -698,7 +703,7 @@
 }
 .testimonials__author span {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.4rem;
   line-height: 1.5;
   color: rgba(85, 85, 85, 0.7);
@@ -708,7 +713,7 @@
 
 .testimonials__slide span {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: rgba(85, 85, 85, 0.7);
@@ -757,7 +762,7 @@
 }
 
 .contact {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   margin-top: 6rem;
   padding-top: 60px;
   padding-bottom: 5.2rem;
@@ -773,11 +778,11 @@
 
 .contact-form {
   margin-top: 22px;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
 }
 .contact-form-fields {
   outline: none;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   margin-bottom: unset !important;
   width: 100%;
   padding: 5px 10px;
@@ -791,7 +796,7 @@
 } */
 .contact-form-fields::placeholder {
   color: #8c8c8c;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   font-weight: 400;
 }
 .contact-form-fields + span {
@@ -809,7 +814,7 @@
 }
 
 .form-submit-btn {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   width: 100px;
   height: 50px;
   border-radius: 50px;
@@ -851,7 +856,7 @@
 }
 
 .contact-number {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   font-size: 15px;
   line-height: 1.7;
   display: block;
@@ -859,7 +864,7 @@
 }
 
 .contact-address {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   font-size: 26px;
   line-height: 1.607;
   color: #8f8f8f;
@@ -869,7 +874,7 @@
 
 .copy-rights {
   padding-top: 20px;
-  color: #fff;
+  color: #8f8f8f;
   font-size: 16px;
   margin: 0 auto;
   text-align: center;
