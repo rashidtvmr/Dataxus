@@ -53,7 +53,7 @@
   font-size: 12px;
   padding: 2.1rem 10rem 2.1rem 4rem;
   color: #ffffff;
-  width: 120%;
+  width: 120% !important;
 }
 .home-sidelinks span {
   display: block;
