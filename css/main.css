@@ -681,6 +681,7 @@
   padding-top: 45px;
   padding-left: 120px;
   padding-right: 30px;
+  text-align: justify;
 }
 .testimonials__slide::before {
   content: "";
