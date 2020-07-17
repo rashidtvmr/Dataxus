@@ -8,7 +8,9 @@
   color: transparent;
   text-align: left;
   top: 30%;
-  margin: 0px 150px 0 10px;
+  width: 600px;
+  left: -70px;
+  margin: 0px 50px 0 10px;
 }
 
 .home-content__main p {
@@ -46,6 +48,8 @@
   .deconstructed {
     font-size: 68px;
     margin: 0px 150px 0 -20px;
+    width: 600px;
+    left: -50px;
   }
   .home-content__main p {
     left: 10%;
@@ -55,6 +59,8 @@
   .deconstructed {
     font-size: 58px;
     margin: 0px 150px 0 20px;
+    width: 600px;
+    left: -50px;
   }
 
   .home-content__main p {
@@ -71,6 +77,8 @@
   .deconstructed {
     font-size: 40px;
     margin: 0 !important;
+    width: 300px;
+    left: -20px;
   }
   .home-content__main p {
     left: 10%;
@@ -86,6 +94,8 @@
   .deconstructed {
     font-size: 40px;
     margin: 0 !important;
+    width: unset;
+    left: 0px;
   }
   .home-content__main p {
     left: 10%;
