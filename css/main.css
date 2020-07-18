@@ -572,26 +572,32 @@ h5 {
   overflow: hidden;
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
-  transition: all 0.9s ease-in-out;
 }
 .service-img-2 {
-  transition: all 0.9s ease-in;
   height: 400px;
 }
-.s-img-1:hover,
-.s-img-2:hover,
-.s-img-3:hover,
 .s-img-4:hover,
+.s-img-2:hover {
+  -webkit-box-shadow: 20px 0px 1px 0px rgba(33, 38, 75, 1);
+  -moz-box-shadow: 20px 0px 1px 0px rgba(33, 38, 75, 1);
+  box-shadow: 20px 0px 1px 0px rgba(33, 38, 75, 1);
+}
+.s-img-1:hover,
+.s-img-3:hover,
 .s-img-5:hover {
-  transform: scale(3);
+  border-radius: 5px;
+  -webkit-box-shadow: -20px 0px 1px 0px rgba(33, 38, 75, 1);
+  -moz-box-shadow: -20px 0px 1px 0px rgba(33, 38, 75, 1);
+  box-shadow: -20px 0px 1px 0px rgba(33, 38, 75, 1);
 }
 .s-img-1,
 .s-img-2,
 .s-img-3,
 .s-img-4,
 .s-img-5 {
+  cursor: pointer;
   border-radius: 5px;
-  transition: all 0.9s ease-in-out;
+  transition: all 0.6s ease-in-out;
   height: 100%;
   width: 100%;
 }
