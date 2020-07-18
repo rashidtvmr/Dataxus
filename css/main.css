@@ -455,7 +455,7 @@
   position: relative;
   margin-top: 70px;
 }
-.services-one-container::before {
+.services-one-container::beforea {
   position: absolute;
   left: -50px;
   content: "";
@@ -474,7 +474,7 @@
   background-repeat: no-repeat;
   height: 108%;
 }
-.services-two-container::before {
+.services-two-container::beforea {
   position: absolute;
   right: -50px;
   content: "";
@@ -493,7 +493,7 @@
   background-repeat: no-repeat;
   height: 108%;
 }
-.services-three-container::before {
+.services-three-container::beforea {
   position: absolute;
   left: -50px;
   content: "";
@@ -512,7 +512,7 @@
   -ms-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
 }
-.services-four-container::before {
+.services-four-container::beforea {
   position: absolute;
   right: -50px;
   content: "";
@@ -531,7 +531,7 @@
   -ms-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
 }
-.services-five-container::before {
+.services-five-container::beforea {
   position: absolute;
   left: -50px;
   content: "";
@@ -550,15 +550,36 @@
   -ms-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: unset;
+}
 .services-one,
 .services-two,
 .services-three,
 .services-four,
 .services-five {
   font-family: "Oswald", sans-serif;
-  background: rgba(252, 252, 252, 0.85);
-  padding: 20px 0px 20px 98px;
+  /* background: rgba(252, 252, 252, 0.85); */
+  padding: 0px 10px 10px 10px;
   border-radius: 5px;
+}
+.service-img {
+  padding: 10px 10px 10px 10px;
+  /* height: 400px; */
+  vertical-align: middle;
+}
+.s-img-1,
+.s-img-2,
+.s-img-3,
+.s-img-4,
+.s-img-5 {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
 }
 .services-one-container:hover::before,
 .services-three-container:hover::before,
@@ -580,13 +601,6 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 @media only screen and (max-width: 700px) {
-  .services-one-container::before,
-  .services-two-container::before,
-  .services-three-container::before,
-  .services-four-container::before,
-  .services-five-container::before {
-    display: none;
-  }
   .services-one-container,
   .services-two-container,
   .services-three-container,
@@ -600,8 +614,7 @@
   .services-three,
   .services-four,
   .services-five {
-    padding: 10px 0px 10px 58px;
-    justify-content: flex-start !important;
+    padding: 10px 5px 10px 5px;
   }
 }
 
