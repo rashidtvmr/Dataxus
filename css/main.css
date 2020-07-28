@@ -872,7 +872,8 @@ h5 {
 
 .contact-email {
   display: inline-block;
-  font-size: 24px;
+  font-size: 17px;
+  font-weight: 500;
   line-height: 1.222;
   color: #8f8f8f;
   padding-top: 36px;
@@ -899,7 +900,8 @@ h5 {
 
 .contact-address {
   font-family: "Oswald", sans-serif !important;
-  font-size: 26px;
+  font-size: 17px;
+  font-weight: 500 !important;
   line-height: 1.607;
   color: #8f8f8f;
   margin-top: 14px;
